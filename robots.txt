@@ -1,6 +1,41 @@
-User-agent: *
+User-Agent: *
+Content-signal: search=yes,ai-input=yes,ai-train=yes
 Allow: /
 Disallow: /admin/
+Disallow: /private/
+Disallow: /*?utm_*
+Disallow: /*.php$
+Crawl-delay: 10
+
+# تمام خزنده‌های مجاز (دسترسی کامل)
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Google-Extended
+User-agent: Bingbot
+User-agent: DuckDuckBot
+User-agent: YandexBot
+User-agent: Baiduspider
+User-agent: SeznamBot
+User-agent: Naverbot
+User-agent: Sogou
+User-agent: Exabot
+User-agent: Yahoo! Slurp
+User-agent: AhrefsBot
+User-agent: SemrushBot
+User-agent: MJ12bot
+User-agent: PetalBot
+User-agent: Grokbot
+User-agent: PerplexityBot
+User-agent: Anthropic-ClaudeBot
+User-agent: Applebot
+User-agent: FacebookExternalHit
+User-agent: Twitterbot
+User-agent: GPTBot
+User-agent: Amazonbot
+User-agent: Bytespider
+User-agent: CCBot
+Allow: /
 Crawl-delay: 5
 
 Sitemap: https://parandsahandcarpet.ir/sitemap.xml
+Host: https://parandsahandcarpet.ir
